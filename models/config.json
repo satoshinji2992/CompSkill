@@ -1,0 +1,11 @@
+{
+  "class": "skill_experience.retrieval.compressed_skill_key.CompressedSkillKey",
+  "condition_width": 4096,
+  "width": 512,
+  "layers": 2,
+  "expansion": 4096,
+  "seed": 17,
+  "epochs": 5,
+  "sha256": "66be2c4b8af0d9e92f1915bfda55d7f37cce4c9d28253c7e46c07b875dd07a1e",
+  "format": "safetensors"
+}

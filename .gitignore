@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.conda/
+.env
+.env.*
+.cache/
+work/
+third_party/
+*.log

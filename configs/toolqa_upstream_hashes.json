@@ -1,0 +1,11 @@
+{
+  "__init__.py": "beb8e45912743cac5f564ceb9487a102c4c8d939ec374f25e61644e9cb0bac51",
+  "fewshots.py": "e64d6c4d51bfd35e8eb2d2099a09355e912fffe658f6cf6da8d34e2f95688660",
+  "prompts.py": "ce89098dde4e444c7bbf882b41025eaa0471de90aecc5bc6123b5e42a569fdcc",
+  "tools/__init__.py": "a10569508b642aa46cf5d7841c423f8cbd6ae6f1d17b0501ae54825fc575744a",
+  "tools/calculator.py": "452aa588799d9e980185313125a3782d7477eb8d7d1dcf34e037a1d8b27e5aeb",
+  "tools/code.py": "2c611ae46432bb8af7d89296971b48b2628f0a527e18489f94f89ccd6a16cbe9",
+  "tools/graph.py": "1a2c4264082821323fd60caba7706768c69f4b17162779546e5bfa8f42af5ae1",
+  "tools/table.py": "4647a90a0b1a72423aa8e2c2918b22e557cdcfda95055fa50df7c7b94dc40b39",
+  "tools/text.py": "c9bb3dfe44efbab093a42e19185a4bc9b8bd1e8a0b1b603336ff77d500f53c37"
+}

@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "models": {
+    "gpt": {
+      "tasks": 318,
+      "branches": 636,
+      "known_branches": 633,
+      "unknown_branches": 3,
+      "executor_id": "gpt-5.5:low:toolqa-20-900-16384",
+      "source_bindings": {
+        "selections.json": {
+          "file_sha256": "bfe2f290c6b7e4177130118eac50dad6c45f3cc56d2c2a9f25507394bc7b713e",
+          "binding_sha256": "5fe5fb2f56dc40be37a4455eebb3b494f345fc3a5e883be4f38991293c4364e4"
+        },
+        "scores.json": {
+          "file_sha256": "17936a8bc4c577779a06e1d91f2b5584cbfd8a69bb310412726a28f4572e4df9",
+          "binding_sha256": "d48f84d6efd7ceb6f4a6a24147625ac9d4daf437b1053c381c5b34744d7aa655"
+        },
+        "fitted.safetensors": {
+          "file_sha256": "6d32efc945a79cc82480f4c370bdf2838bfca3385dbdc3e935e5e993d1f2ea1f",
+          "binding_sha256": "b569c3103494806cf2b9cefae9905cc3e1fdd1375f0f037bcf484678561e130b"
+        }
+      },
+      "files": {
+        "support.json": {
+          "bytes": 4895481,
+          "sha256": "6ded28e4301ad903938b75cca633ce2d1944aabf30ecaee6429aa3c6f72b04d3"
+        },
+        "fitted.safetensors": {
+          "bytes": 1613084,
+          "sha256": "6d32efc945a79cc82480f4c370bdf2838bfca3385dbdc3e935e5e993d1f2ea1f"
+        },
+        "settings.json": {
+          "bytes": 466,
+          "sha256": "dbe53cba64ce4c968142fa18eb5a4ac437220c497b2c0c7386a8c8d520b35bf5"
+        },
+        "keyopt.safetensors": {
+          "bytes": 1613236,
+          "sha256": "e3253fbc6ff21110ad4f82af1a6c9fded32e1fcf4e68b00b855d3ab6afbb1480"
+        }
+      },
+      "schema": "Public questions and embeddings; skill/version and execution IDs; binary or null outcomes; no generated answers or traces.",
+      "keyopt": {
+        "source_sha256": "e3253fbc6ff21110ad4f82af1a6c9fded32e1fcf4e68b00b855d3ab6afbb1480",
+        "selected": {
+          "alpha": 0.0,
+          "score_cap": 0.3,
+          "use_residual": true
+        },
+        "fit": "Five-fold source-group cross-validation on this executor's 318 support tasks selects alpha, the keep strength, the score cap and whether the residual is used; the final fit uses all support. No target-task outcome is read.",
+        "module": "src/skill_experience/retrieval/keyopt.py",
+        "refit": "scripts/fit_keyopt.py reproduces the selection exactly and the tensors to float32 rounding."
+      }
+    },
+    "deepseek": {
+      "tasks": 318,
+      "branches": 636,
+      "known_branches": 626,
+      "unknown_branches": 10,
+      "executor_id": "deepseek-flash:low:toolqa-20-900-16384",
+      "source_bindings": {
+        "selections.json": {
+          "file_sha256": "e5b3ef6ef8e92c4d5f15f8b72af106bab488cb2739d1da47033bd180b82f7e59",
+          "binding_sha256": "4a93d864ec8896d66de818dcdb452b769eb8ccb000f269798bce20e3a5608959"
+        },
+        "scores.json": {
+          "file_sha256": "38b1fd35d88cd74a3c8b27e8a35eb3b8630928abf4d2847e2bac7858bb7ba3e1",
+          "binding_sha256": "26829d5d6579b15af4b0c1ac43022e82520444408f4356263d2d1bf15408ff92"
+        },
+        "fitted.safetensors": {
+          "file_sha256": "09f0cc33e5a7b4dde755d9cf169d64f55afbf36a5d61d60a7d89636812d8fd19",
+          "binding_sha256": "25d9f2bdf66513927e282d7bf1bf9adeb4a8579ecb006972e4f48f8b7ec22a00"
+        }
+      },
+      "files": {
+        "support.json": {
+          "bytes": 4899636,
+          "sha256": "1abe6e5e0e20572ec7d7f63c855c8c98b080b138ee0246916b858ab531a46ca7"
+        },
+        "fitted.safetensors": {
+          "bytes": 1613084,
+          "sha256": "09f0cc33e5a7b4dde755d9cf169d64f55afbf36a5d61d60a7d89636812d8fd19"
+        },
+        "settings.json": {
+          "bytes": 491,
+          "sha256": "24d50e97c6b50ee73e34af349122802542f019bb3c13b891af53a6dcf5664f26"
+        },
+        "keyopt.safetensors": {
+          "bytes": 1613236,
+          "sha256": "1053c26b9da5132d1636d0ba66a5229739b028eee8bd25f1d884ace37a174e57"
+        }
+      },
+      "schema": "Public questions and embeddings; skill/version and execution IDs; binary or null outcomes; no generated answers or traces.",
+      "keyopt": {
+        "source_sha256": "1053c26b9da5132d1636d0ba66a5229739b028eee8bd25f1d884ace37a174e57",
+        "selected": {
+          "alpha": 0.05,
+          "score_cap": 0.2,
+          "use_residual": true
+        },
+        "fit": "Five-fold source-group cross-validation on this executor's 318 support tasks selects alpha, the keep strength, the score cap and whether the residual is used; the final fit uses all support. No target-task outcome is read.",
+        "module": "src/skill_experience/retrieval/keyopt.py",
+        "refit": "scripts/fit_keyopt.py reproduces the selection exactly and the tensors to float32 rounding."
+      }
+    }
+  },
+  "shared_files": {
+    "support_reranker_scores.json": {
+      "bytes": 30224,
+      "sha256": "e777e47b49c3ee5ee901f9a451571150c7e130fae948a6301b435c2a204d82e4",
+      "schema": "Frozen SkillRouter reranker scores of the two support arms of each support task; support tasks only."
+    }
+  }
+}

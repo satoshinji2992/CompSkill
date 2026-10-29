@@ -1,0 +1,6 @@
+**
+!native.Dockerfile
+!src/
+!src/skill_experience/
+!src/skill_experience/toolqa/
+!src/skill_experience/toolqa/native_worker.py

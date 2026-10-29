@@ -1,0 +1,36 @@
+{
+  "kind": "paper_figures",
+  "profile_note": "Figures reproduce the paper's arXiv version, whose schematics are text-only updates of the submitted drawings for the final KeyOpt. The general architecture also depicts environments whose experiment adapters are not included in this release.",
+  "figures": [
+    {
+      "file": "paper-toolqa-case.svg",
+      "paper_figure": 1,
+      "source": "paper figure 1 (arXiv version)",
+      "source_sha256": "3f6a77425cc7ad981b938ba7c1486d9f954d2cde6c09ec3c50b7a586d451780e",
+      "svg_sha256": "a66de044d9cffee2e49505f6c919d9d57c5eeec8a745dfd337ac8df8f4a79002",
+      "png_sha256": "81b916b4ce51062d19ebacb6d8aa5c13801d6ec0ac3d77061b7a2f7089db4214",
+      "unchanged_drawing_elements": 152,
+      "edit": "Remove only the full-canvas white rectangle; retain the paper's colors, typography, labels, numbers and all remaining vector elements."
+    },
+    {
+      "file": "paper-contributions.svg",
+      "paper_figure": 2,
+      "source": "paper figure 2 (arXiv version)",
+      "source_sha256": "69d015c2603cefdac4c246ffd9cb0eda0b8f5c416a38f13f2d7201a991f44622",
+      "svg_sha256": "9c8cfb8dacd4dde15d6705a0e345e710b5d186b5cfcc7ecc1e4eb159bc70c414",
+      "png_sha256": "e643eb0de6388b8e02666983363372e2194eb7d234b0326db2d8c18e26e87126",
+      "unchanged_drawing_elements": 628,
+      "edit": "Remove only the full-canvas white rectangle; retain the paper's colors, typography, labels, numbers and all remaining vector elements."
+    },
+    {
+      "file": "paper-architecture.svg",
+      "paper_figure": 3,
+      "source": "paper figure 3 (arXiv version)",
+      "source_sha256": "1607eaadf1abca0a228238631934a55894becda66f229a63d8ad764e8fcd1f79",
+      "svg_sha256": "b3f48da1b1eeb7192cf9f18fcbcc1a93987612aa26cbea2c0eba00b71c6c8f15",
+      "png_sha256": "60c86faf43b8aeae51267283241b061f9f3ec4337a8211e94f47d322fafe1068",
+      "unchanged_drawing_elements": 697,
+      "edit": "Remove only the full-canvas white rectangle; retain the paper's colors, typography, labels, numbers and all remaining vector elements."
+    }
+  ]
+}

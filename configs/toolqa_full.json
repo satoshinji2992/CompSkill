@@ -1,0 +1,26 @@
+{
+  "profile": "full_exact_quote",
+  "candidate_budget": 10,
+  "protected_semantic": 6,
+  "max_expansion": 4,
+  "review_top": 8,
+  "max_history": 6,
+  "calibration": "keyopt",
+  "optional_calibrations": [
+    "fixed_strength"
+  ],
+  "review_seconds": 300,
+  "actor_steps": 20,
+  "actor_seconds": 900,
+  "actor_max_output_tokens": 16384,
+  "actor_before_output_limit": 24000,
+  "review_output_tokens": {
+    "gpt": 4000,
+    "deepseek": 8000
+  },
+  "reasoning_effort": "low",
+  "review_mode": "exact_quote",
+  "optional_review_modes": [
+    "source_line"
+  ]
+}

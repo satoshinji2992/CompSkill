@@ -1,0 +1,11 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "executor_id": "deepseek-flash:low:toolqa-20-900-16384",
+  "executor_label": "DeepSeek-flash (low thinking)",
+  "review_max_tokens": 8000,
+  "react_sha256": "81ced2d9568830fb3ebc108400775b0efcdef042cc5ed416c1451cf45eee50eb",
+  "scorer_sha256": "369a7e8d247460f2e424412a2b136fde9288bdc297de452f40283bfec5795561",
+  "native_sha256": "86576edb715fd7e2e720d3998c0e84d9aff90b628a37b57678584684852c5668",
+  "review_mode": "exact_quote"
+}
