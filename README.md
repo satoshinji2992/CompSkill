@@ -119,9 +119,9 @@ executor.*
 | Setting | Values | Paper configuration |
 |---|---|---|
 | `calibration` | `keyopt` **(default)** | Final KeyOpt with support-selected strengths (main results) |
-| | `fixed_strength` | Submitted configuration: fixed-strength calibration plus memory correction |
+| | `fixed_strength` | Submitted configuration: fixed-strength calibration plus memory correction ([archived appendix](docs/archive/README.md)) |
 | `review_mode` | `exact_quote` **(default)** | Cited review with verbatim quotes (main results) |
-| | `source_line` | Citation-interface review with document/source-line IDs (appendix) |
+| | `source_line` | Citation-interface review with document/source-line IDs ([archived appendix](docs/archive/README.md)) |
 
 Using frozen reranker scores, the released routing and selection code reconstructs
 the paper's final-KeyOpt review prompts for both executors (2 × 332) **byte for
@@ -184,6 +184,7 @@ released fit.
 | `tests/` | Offline behavior, isolation, artifact-integrity and checkpoint tests |
 | `environment.yml` | Conda environment for the package and offline checks |
 | `assets/figures/` | Paper figures in transparent SVG and PNG, with provenance |
+| `docs/archive/` | Archived appendix: earlier fixed-strength calibration and diagnostics (PDF) |
 
 ## Reproduction scope
 

@@ -11,9 +11,9 @@ reranker scores needed to refit KeyOpt, and offline tests.
 | Setting | Paper configuration |
 |---|---|
 | `calibration: keyopt` (default) | Final KeyOpt with support-selected strengths: the paper's main results |
-| `calibration: fixed_strength` | Submitted configuration: fixed-strength calibration plus memory correction (appendix) |
+| `calibration: fixed_strength` | Submitted configuration: fixed-strength calibration plus memory correction ([archived appendix](docs/archive/README.md)) |
 | `review_mode: exact_quote` (default) | Cited review with verbatim quotes |
-| `review_mode: source_line` (optional) | Citation-interface review with document/source-line IDs (appendix) |
+| `review_mode: source_line` (optional) | Citation-interface review with document/source-line IDs ([archived appendix](docs/archive/README.md)) |
 
 The default review uses the original full-document prompt and exact-substring
 quote validator. The optional mode assigns stable document/source-line IDs and

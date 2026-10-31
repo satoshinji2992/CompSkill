@@ -14,12 +14,12 @@
       "sha256": "d68647ec6bea9bf98e12f502f9673df736896399546403d68dc7e2c59946308f"
     },
     "README.md": {
-      "bytes": 10399,
-      "sha256": "20acaad7e1e4adfde46de562bdab5098e7041a386c8c04dba9b99999da0547f5"
+      "bytes": 10578,
+      "sha256": "1a045bdf55f76c5c7e916f552cc65689395f0d9400356fc4882772fa7f279313"
     },
     "RELEASE_SCOPE.md": {
-      "bytes": 4988,
-      "sha256": "2435e4926f55598df0d18933260405fafe31c01c6e4cdd044325c1a3f77a51b7"
+      "bytes": 5058,
+      "sha256": "9e3c82bcf5cb75998e48f6c0321ffed905d034be9ac5a701aba08d3db49ec62b"
     },
     "THIRD_PARTY.md": {
       "bytes": 1822,
@@ -121,13 +121,21 @@
       "bytes": 30224,
       "sha256": "e777e47b49c3ee5ee901f9a451571150c7e130fae948a6301b435c2a204d82e4"
     },
+    "docs/archive/README.md": {
+      "bytes": 719,
+      "sha256": "13987c18fea3aecc7a496d7472b522d222e2e07eb725e246d916f79d2df6c7a9"
+    },
+    "docs/archive/fixed_strength_appendix.pdf": {
+      "bytes": 746331,
+      "sha256": "9c0b180b507339a49ad0ea8c12e4f018417fc8e0c4d58b9199429f7f9d2f89a6"
+    },
     "docs/compressor.md": {
       "bytes": 4311,
       "sha256": "438896f9e542bf2d49833059d5ce8d3a0e9c42dae6336d84e4c4d5d93c1983c9"
     },
     "docs/toolqa.md": {
-      "bytes": 10885,
-      "sha256": "5e884cb981ba864a0fd5224c19eacb031188c17a2b30d9b0c8310df7b484dbc9"
+      "bytes": 10918,
+      "sha256": "62e35574b18d9715b87917c56d0fee4ffab16f0e44fb4f9942b8ab5ee382560d"
     },
     "environment.yml": {
       "bytes": 123,

@@ -139,7 +139,8 @@ The reranker call uses the upstream `flat-full` prompt, length 4096, batch 2,
 and sigmoid logits. Default `exact_quote` review uses the original prompt and
 requires a nonempty verbatim quote from the selected document, with evidence IDs
 restricted to the supplied history. Invalid JSON/citations retain the proposed
-skill. To use the appendix’s Citation-interface Full, change `review_mode` to
+skill. To use the Citation-interface Full of the
+[archived appendix](archive/README.md), change `review_mode` to
 `source_line` in the assembled input `settings.json` **before** `full prepare`,
 and use a fresh run directory. This optional mode validates document/source-line
 IDs. To run the submitted fixed-strength configuration instead of KeyOpt, set
